@@ -1,4 +1,4 @@
-# 🌐 AI Language Translation Tool
+# 🌐 AI Language Translation Tool  ## 🔗 Live Demohttps://lingua-ai-tawny.vercel.app/
 
 A ChatGPT-style **Language Translation Web App** built using **ReactJS and Firebase**.  
 This app allows users to translate text in real-time and automatically saves translation history.
@@ -26,12 +26,8 @@ This app allows users to translate text in real-time and automatically saves tra
 
 ---
 
-## 🔗 Live Demo
 
-(Add your deployed link here)  
-Example: https://your-project-link.vercel.app
 
----
 
 ## ⚙️ Setup Instructions
 
