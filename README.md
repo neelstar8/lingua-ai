@@ -4,10 +4,9 @@ A ChatGPT-style **Language Translation Web App** built using **ReactJS and Fireb
 This app allows users to translate text in real-time and automatically saves translation history.
 
 ---
-## 🔗 Live Demohttps://lingua-ai-tawny.vercel.app/
----
-## 🚀 Features
 
+## 🚀 Features
+🔗 Live Demohttps://lingua-ai-tawny.vercel.app/
 - Real-time text translation  
 - Multiple language selection  
 - Chat-style UI (like ChatGPT)  
