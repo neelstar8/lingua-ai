@@ -6,7 +6,7 @@ This app allows users to translate text in real-time and automatically saves tra
 ---
 
 ## 🚀 Features
-🔗 Live Demohttps://lingua-ai-tawny.vercel.app/
+🔗 Live Demo https://lingua-ai-tawny.vercel.app/
 - Real-time text translation  
 - Multiple language selection  
 - Chat-style UI (like ChatGPT)  
