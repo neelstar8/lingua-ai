@@ -1,16 +1,123 @@
-# React + Vite
+# 🌐 AI Language Translation Tool
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A ChatGPT-style **Language Translation Web App** built using **ReactJS and Firebase**.  
+This app allows users to translate text in real-time and automatically saves translation history.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Features
 
-## React Compiler
+- Real-time text translation  
+- Multiple language selection  
+- Chat-style UI (like ChatGPT)  
+- Sidebar with previous translations  
+- Firebase integration for storing history  
+- Live updates using Firestore (onSnapshot)  
+- Loading indicator during translation  
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Frontend: ReactJS (Vite)
+- Database: Firebase Firestore
+- API: Translation API (LibreTranslate or similar)
+- Styling: CSS / Tailwind
+
+---
+
+## 🔗 Live Demo
+
+(Add your deployed link here)  
+Example: https://your-project-link.vercel.app
+
+---
+
+## ⚙️ Setup Instructions
+
+### 1. Clone the repository
+
+git clone https://github.com/yourusername/your-repo-name.git  
+cd your-repo-name  
+
+---
+
+### 2. Install dependencies
+
+npm install  
+
+---
+
+### 3. Create Environment Variables
+
+Create a `.env` file in the root directory and add the following:
+
+VITE_API_KEY=your_translation_api_key  
+
+VITE_FIREBASE_API_KEY=your_firebase_api_key  
+VITE_FIREBASE_AUTH_DOMAIN=your_project.firebaseapp.com  
+VITE_FIREBASE_PROJECT_ID=your_project_id  
+
+---
+
+### 4. Important Notes About `.env`
+
+- The `.env` file is **NOT included** in this repository for security reasons  
+- You must create it manually  
+- Do NOT upload `.env` to GitHub  
+- `.env.example` file is provided for reference  
+
+---
+
+### 5. Run the project
+
+npm run dev  
+
+---
+
+## 🔥 How It Works
+
+1. User enters text and selects language  
+2. App sends request to translation API  
+3. Translated text is displayed in chat UI  
+4. Data is saved in Firebase Firestore  
+5. Sidebar updates in real-time  
+
+---
+
+## 📁 Folder Structure
+
+src/  
+│── components/  
+│   ├── Sidebar.jsx  
+│   ├── ChatWindow.jsx  
+│   ├── MessageBubble.jsx  
+│   ├── InputBox.jsx  
+│  
+│── services/  
+│   ├── api.js  
+│   ├── firestore.js  
+│  
+│── firebase.js  
+│── App.jsx  
+
+---
+
+## 🎯 Future Improvements
+
+- User authentication (Login/Signup)  
+- Voice-to-text translation  
+- Text-to-speech output  
+- More language support  
+
+---
+
+## 🙌 Acknowledgment
+
+This project is developed as part of the **CodeAlpha Internship Program**.
+
+---
+
+## 👨‍💻 Author
+
+Neel Gadekar
