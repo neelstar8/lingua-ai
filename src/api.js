@@ -17,8 +17,8 @@ export const LANGUAGE_CODES = {
   'Russian': 'ru',
 };
 
-// Replace 'YOUR_GOOGLE_API_KEY' with your actual Google Cloud Translation API key
-const GOOGLE_API_KEY = 'AIzaSyDv_Ju5MP4z1zg1djaxLRtGn5xTqdYpK7U';
+// Load the API key securely from the .env file
+const GOOGLE_API_KEY = import.meta.env.VITE_GOOGLE_API_KEY;
 
 export async function translateText(text, sourceLang, targetLang) {
   // If 'Auto' is selected, Google Translate can auto-detect if we don't pass the source parameter.
